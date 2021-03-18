@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color:black!important;
 }
 
 .container {
@@ -726,9 +726,6 @@ h1 {
     color: #333333!important;
 }
 
-h4 {
-    color: #333333!important;
-}
 
 .icons {
     margin-bottom: 14px;
@@ -753,8 +750,9 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(48, 48, 48, 0.7);
     padding: 40px 40px 40px 40px;
+    text-align: center;
 }
 
 .bold-link {
@@ -1039,4 +1037,37 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/* CUSTOM CSS*/
+#bloc-3-what-i-do strong ,#bloc-5-cta strong{
+font-weight: 400;
+    font-size: 22px;
+    line-height: 1.4em;
+}
+
+#bloc-2-services h2{
+  text-align: center;
+  padding-left: 220px;
+  padding-right: 220px;
+}
+#bloc-2-services figure blockquote p{
+    font-size: 20px;
+    font-style: italic;
+  
+}
+#bloc-2-services figure blockquote{
+    padding: 0 60px;
+    
+    margin: 0;
+    border: none;
+}
+#bloc-2-services figure figcaption{
+    color: black;
+}
+#bloc-8 h4{
+    color: white !important;
+}
+.social{
+   margin: 30px auto 30px auto;
 }
