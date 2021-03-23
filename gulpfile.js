@@ -10,4 +10,9 @@ function unusedcss(){
     .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(gulp.dest('./'))
 }
+function watch() {
+    gulp.watch('source_css/**/*.css', unusedcss);
+};
+
   exports.unusedcss=unusedcss
+  exports.watch = watch;
